@@ -1,0 +1,52 @@
+/* styles.tcss */
+
+Screen {
+    background: $surface;
+    color: $foreground;
+}
+
+/* Containers use layout: horizontal or vertical */
+#main {
+    layout: horizontal;
+    height: 1fr;
+    margin: 1 2;
+}
+
+/* Sizing: fr = fractional unit, % = percent of parent, int = cells */
+#sidebar {
+    width: 30%;
+    border: round $primary;
+    padding: 1;
+}
+
+#content {
+    width: 1fr;         /* takes remaining space */
+    layout: vertical;
+    margin-left: 1;
+}
+
+/* Spacing between children: no 'gap' — use margin on elements */
+Button {
+    margin-right: 1;
+    margin-bottom: 1;
+    min-width: 12;
+}
+
+/* Target variant classes set by variant= in Python */
+Button.-primary  { background: $primary;  color: $foreground; }
+Button.-success  { background: $success;  color: $foreground; }
+Button.-warning  { background: $warning;  color: $foreground; }
+Button.-error    { background: $error;    color: $foreground; }
+
+/* Modal screens */
+MyModal {
+    align: center middle;   /* centre in the screen */
+}
+#modal-box {
+    width: 60;
+    height: auto;
+    border: double $primary;
+    padding: 2 3;
+    background: $panel;
+    layout: vertical;
+}
