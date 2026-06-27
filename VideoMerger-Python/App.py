@@ -1,5 +1,4 @@
 """
-app.py — Video Merger Boilerplate
 Python 3.14+ · Textual 8.x · ffmpeg required
 
 CHECKLIST (follow top-to-bottom):
