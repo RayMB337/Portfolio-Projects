@@ -11,16 +11,6 @@ and cybersecurity tooling.
 
 ## Projects
 
-### Job Web Scraper (Python)
-
-Scrapes Indeed, Glassdoor, and ZipRecruiter for jobs
-matching user-defined skills. Exports results to CSV.
-
-**Skills demonstrated:** HTTP handling, HTML parsing,
-browser automation, JSON, pandas
-
-[View Project](./job-scraper/)
-
 ## File Shredder (Python)
 
 Built a secure file shredder in Python implementing DoD 5220.22-M sanitization standard with recursive directory support, audit logging, and verified overwrite confirmation
