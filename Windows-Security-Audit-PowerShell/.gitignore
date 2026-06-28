@@ -19,3 +19,10 @@ Thumbs.db
 # IDEs
 .vscode/
 .idea/
+
+# Audit output files — never commit these
+AuditResults/
+*.csv
+*.log
+*.txt
+!README.md
